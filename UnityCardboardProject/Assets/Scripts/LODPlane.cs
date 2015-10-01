@@ -4,8 +4,14 @@ using System.Collections;
 public class LODPlane : MonoBehaviour {
 
 	// Use this for initialization
-	void Start () {
+	IEnumerator Start () {
 		Debug.Log ("LOD Plane created");
+		
+		WWW www0 = new WWW( "http://pixelkin.org/wp-content/uploads/2014/03/Metal-Gear-Solid-Color-Logo.jpg" );
+		yield return www0;
+
+		Renderer renderer = GetComponent<Renderer>();
+		renderer.material.mainTexture = www0.texture;
 	}
 	
 	// Update is called once per frame
