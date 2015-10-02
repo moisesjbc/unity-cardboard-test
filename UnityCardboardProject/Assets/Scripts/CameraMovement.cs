@@ -8,7 +8,7 @@ public class CameraMovement : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Instantiate (lodPlane,new Vector3(0,4,5),Quaternion.identity);
+		Instantiate (lodPlane,new Vector3(0,4,-5),Quaternion.identity);
 	}
 	
 	// Update is called once per frame
