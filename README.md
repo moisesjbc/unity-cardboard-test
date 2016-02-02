@@ -1,5 +1,7 @@
 # unity-cardboard-test
 
+![Project screenshot of a 3D scene viewed though Google Cardboard](screenshot_unity_cardboard_test.jpg)
+
 Toy Unity 5.x project for testing Cardboard SDK. It consists of a simple scene where the viewer alternatively moves forward and backwards while two planes are rendered in front of him / her.
 
 ## Building the proyect
